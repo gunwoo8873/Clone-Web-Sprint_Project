@@ -1,0 +1,248 @@
+body{
+    font-family: "Noto Sans KR",Roboto,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif,"Apple Color Emoji","Twemoji Country Flags";
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    border: 1px solid #d5d5d5;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+}
+
+
+
+#head-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    font-weight: 600;
+    padding: 0px 30px;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 3px 16px 4px rgba(128, 128, 128, 0.3);
+}
+.main-logo img{
+    width: 32px;
+    height: 32px;
+}
+.head-main-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.head-sub-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub-login-btn, .sub-sinup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px #514475 solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 38px;
+}
+.sub-login-btn{
+    background-color: white;
+    color: #514475;
+}
+.sub-login-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.sub-sinup-btn{
+    background-color: #514475;
+    color: white;
+}
+.sub-sinup-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.menu-list, .sub-menu-list{
+    width: 110px;
+    color: black;
+}
+.menu-list:hover, .sub-menu-list:hover{
+    color: blueviolet;
+}
+
+
+#sec-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.main-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-input input{
+    width: 520px;
+    height: 52px;
+    border: 0.5px gray solid;
+    border-radius: 5px;
+}
+
+.password-remenber{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 400px;
+}
+.password-remenber a{
+    color: black;
+}
+.password-remenber a:hover{
+    color: blueviolet;
+}
+
+.login-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px #514475 solid;
+    border-radius: 5px;
+    width: 520px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+}
+.login-btn a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px #514475 solid;
+    border-radius: 5px;
+    width: 520px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #514475;
+}
+
+.login-save{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 400px;
+}
+
+.login-platform{
+    padding-top: 80px;
+}
+.platform-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 48px;
+    margin: 8px;
+}
+#google{
+    background-color: orange;
+    color: black;
+}
+#google:hover{
+    background-color: rgb(226, 129, 18);
+    color: black;
+}
+#github{
+    background-color: black;
+    color: white;
+}
+#naver{
+    background-color: rgba(126, 161, 74, 0.658);
+    color: white;
+}
+#naver:hover{
+    background-color: rgba(76, 105, 32, 0.658);
+    color: white;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-top: 100px;
+}
+.left-top-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.top-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: black;
+    border: 0.5px #514475 solid;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+.top-btn:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 207, 207);
+    color: blueviolet;
+    border: 0.5px #514475 solid;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+
+
+.footer-right-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    overflow: hidden;
+}
+.footer-right-informaition{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 460px;
+    padding-right: 30px;
+    gap: 20px;
+}
+.info-link{
+    color: gray;
+}
+.info-link:hover{
+    color: blueviolet
+}

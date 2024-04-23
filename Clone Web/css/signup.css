@@ -1,0 +1,242 @@
+body{
+    font-family: "Noto Sans KR",Roboto,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif,"Apple Color Emoji","Twemoji Country Flags";
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+input{
+    width: 520px;
+    height: 52px;
+    border: 0.5px gray solid;
+    border-radius: 5px;
+}
+input:active{
+    box-shadow: 0px 0px 10px 0px gray;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    border: 1px solid #d5d5d5;
+}
+  
+::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: #eeeeee;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #b0b0b0;
+}
+
+
+#head-container{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    font-weight: 600;
+    padding: 0px 30px;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 3px 16px 4px rgba(128, 128, 128, 0.3);
+}
+.main-logo img{
+    width: 32px;
+    height: 32px;
+}
+.head-main-menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.head-sub-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sub-login-btn, .sub-sinup-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px #514475 solid;
+    border-radius: 5px;
+    width: 120px;
+    height: 38px;
+}
+.sub-login-btn{
+    background-color: white;
+    color: #514475;
+}
+.sub-login-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.sub-sinup-btn{
+    background-color: #514475;
+    color: white;
+}
+.sub-sinup-btn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.menu-list, .sub-menu-list{
+    width: 110px;
+    color: black;
+}
+.menu-list:hover, .sub-menu-list:hover{
+    color: blueviolet;
+}
+
+#sign-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.sign-main-title{
+    margin-bottom: -30px;
+}
+.sign-top-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.sign-logo{
+    width: 60px;
+    height: 60px;
+    padding-right: 20px;
+}
+.sign-sub-title{
+    font-weight: 400;
+}
+.sing-main-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-sub-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+#user-job{
+    width: 520px;
+    height: 52px;
+}
+.label-text{
+    font-size: 16px;
+    font-weight: 700;
+}
+::placeholder{
+    font-family: "Noto Sans KR",Roboto,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif,"Apple Color Emoji","Twemoji Country Flags";
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.check-box-sc{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    padding-right: 60px;
+    gap: 10px;
+
+    .sc-text-i{
+        color: red;
+    }
+    .sc-text-ii{
+        color: blueviolet;
+    }
+}
+.sc-check{
+    font-size: 14px;
+    font-weight: 500;
+}
+.check-box-sc input{
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+}
+.login-title a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px #514475 solid;
+    border-radius: 5px;
+    width: 520px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-top: 100px;
+}
+.left-top-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.top-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: black;
+    border: 0.5px #514475 solid;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+.top-btn:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 207, 207);
+    color: blueviolet;
+    border: 0.5px #514475 solid;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+.footer-right-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 30px;
+    overflow: hidden;
+}
+.footer-right-informaition{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 460px;
+    padding-right: 30px;
+    gap: 20px;
+}
+.info-link{
+    color: gray;
+}
+.info-link:hover{
+    color: blueviolet
+}

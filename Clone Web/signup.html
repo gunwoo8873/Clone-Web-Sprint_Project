@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="head-container">
+        <div class="head-main-menu">
+            <a href="./index.html" class="main-logo"><img src="./img/login-img/free-animated-icon-home-6844422.gif">
+            <a href="./production.html" class="menu-list">제품</a>
+            <a href="./cost.html" class="menu-list">요금</a>
+            <a href="./info.html" class="menu-list">고객사례</a>
+            <a href="./report.html" class="menu-list">자료실</a>
+            <a href="./classroom.html" class="menu-list">강의실</a>
+            <a href="https://indecisive-pan-8f7.notion.site/65546f78051b4acca81b9dbeca0f73e6?v=2c024377dea540018d1ac165f63aa954" class="menu-list" target="_blank">템플릿</a>
+            <a href="https://github.com/gunwoo8873/HTML.git" class="menu-list">프로젝트 정보</a>
+        </div>
+        <div class="head-sub-menu">
+            <a href="./sc-informaition.html" class="sub-menu-list">서비스 이용약관</a>
+            <a href="./login.html" class="sub-login-btn" id="login">로그인</a>
+            <a href="./signup.html" class="sub-sinup-btn" id="Signup">회원가입</a>
+        </div>
+    </header>
+    <article id="sign-title">
+        <div class="sign-top-title">
+            <img src="./img/login-img/free-animated-icon-rocket-6172512.gif" alt="#" class="sign-logo">
+            <p><h1 class="sign-main-title">회원가입</h1></p>
+        </div>
+        <h3 class="sign-sub-title">플로우 비즈니스 프로 버전을 체험해 보세요</h3>
+    </article>
+    <article id="sign-input-group">
+        <div class="sing-main-input">
+            <label class="sign-sub-input">
+                <span class="label-text">이메일</span>
+                <input type="email" name="#" id="email" placeholder="email">
+            </label>
+            <label class="sign-sub-input">
+                <span class="label-text">이름</span>
+                <input type="text" name="#" id="name" placeholder="이름">
+            </label>
+            <label class="sign-sub-input">
+                <span class="label-text">비밀번호</span>
+                <input type="password" name="#" id="psw" placeholder="비밀번호(8 ~ 20자리 소,대,특문자)">
+            </label>
+            <label class="sign-sub-input">
+                <span class="label-text">비밀번호 확인</span>
+                <input type="password" name="#" id="re-psw" placeholder="비밀번호 재입력">
+            </label>
+            <label class="sign-sub-input">
+                <span class="label-text">직무</span>
+                <div class="job-input">
+                    <select name="join-user-job" id="user-job" data-empty-msg="직무를 선택해 주세요">
+                        <option value>직무를 선택해 주세요</option>
+                        <option value="ceo">CEO</option>
+                        <option value="cs">고객직원</option>
+                        <option value="sa">영업</option>
+                        <option value="hr">HR</option>
+                        <option value="ds">디자이너</option>
+                        <option value="eng">엔지니어</option>
+                    </select>
+                </div>
+            </label>
+            <div class="check-box-sc">
+                <div><input type="checkbox" name="#" id="sc-input"><span class="sc-check"><span class="sc-text-i">(필수)</span><a href="./sc-informaition.html" class="sc-text-ii">서비스 이용약관, 개인정보처리방침</a>을 확인하였고, 이에 동의합니다.</span></div>
+                <div><input type="checkbox" name="#" id="sc-input"><span class="sc-check">(선택)<a class="sc-text-ii">혜택 알림 수신</a>에 동의합니다.</span></div>
+            </div>
+            <div class="login-title">
+                <a href="#" class="main-titl">다음</a>
+            </div>
+        </div>
+    </article>
+    <footer id="footer-container">
+        <div class="footer-left-contents">
+            <div class="left-top-btn">
+                <a href="#" class="top-btn" id="informaition-data">소개 및 비교자료</a>
+                <a href="#" class="top-btn" id="informaition-qna">문의</a>
+                <a href="#" class="top-btn" id="infotmaition-github">깃허브</a>
+            </div>
+            <div class="left-mid-text">
+                <p><span class="info-text">제작자&nbsp;:&nbsp;Choigunwoo</span></p>
+                <p><span class="info-text">email&nbsp;:&nbsp;gunwoo8873@outlook.kr</span></p>
+                <p><span class="info-text">Discord&nbsp;:&nbsp;Perez#4369</span></p>
+            </div>
+            <div class="left-bat-btn">
+                <a href="#" class="link-icon" id="github"><img src="./img/main-img/free-icon-github-sign-25657.png" alt="#"></a>
+                <a href="#" class="link-icon" id="youtube"><img src="./img/main-img/free-icon-youtube-logo-87421.png" alt="#"></a>
+            </div>
+        </div>
+        <div class="footer-right-contents">
+            <div class="footer-right-informaition">
+                <b class="info-title">회사소개</b>
+                <a href="#" class="info-link">스토리</a>
+                <a href="#" class="info-link">문화복지</a>
+                <a href="#" class="info-link">멤버소개</a>
+                <a href="#" class="info-link">채용</a>
+            </div>
+            <div class="footer-right-informaition">
+                <b class="info-title">제품</b>
+                <a href="#" class="info-link">프로젝트 협업</a>
+                <a href="#" class="info-link">업무관리</a>
+                <a href="#" class="info-link">메신저</a>
+                <a href="#" class="info-link">OKR</a>
+                <a href="#" class="info-link">회의</a>
+                <a href="#" class="info-link">보안</a>
+                <a href="#" class="info-link">시스템</a>
+            </div>
+            <div class="footer-right-informaition">
+                <b class="info-title">요금</b>
+                <a href="#" class="info-link">요금제</a>
+                <a href="#" class="info-link">문의</a>
+                <a href="#" class="info-link">유료</a>
+                <a href="#" class="info-link">무료</a>
+            </div>
+            <div class="footer-right-informaition">
+                <b class="info-title">교육</b>
+                <a href="#" class="info-link">강의실</a>
+                <a href="#" class="info-link">메뉴얼</a>
+                <a href="#" class="info-link">QnA</a>
+            </div>
+            <div class="footer-right-informaition">
+                <b class="info-title">활용사례</b>
+                <a href="#" class="info-link">케이스</a>
+                <a href="#" class="info-link">마케팅</a>
+                <a href="#" class="info-link">영업</a>
+                <a href="#" class="info-link">디자인</a>
+                <a href="#" class="info-link">개발</a>
+                <a href="#" class="info-link">제조</a>
+                <a href="#" class="info-link">유통</a>
+                <a href="#" class="info-link">교육</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
